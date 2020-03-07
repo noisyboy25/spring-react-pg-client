@@ -31,7 +31,7 @@ function App() {
   useEffect(() => refreshUsers(), []);
 
   return (
-    <div className="App">
+    <div className="App container float-left">
       <MyForm handleAdd={handleAdd} />
       <UserList users={users} />
     </div>
